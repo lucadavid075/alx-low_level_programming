@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-/* printing the alphabet */
+/**
+ * main - print alphabet in lower and uppercase
+ *
+ *
+ * Return: (0) Success
+ */
 int main(void)
 {
 	char c;
