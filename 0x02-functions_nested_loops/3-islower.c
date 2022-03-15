@@ -1,21 +1,21 @@
 #include "main.h"
+
 /**
-* _islower - Shows 1 if the input is a
-* lowercase character. Another cases, shows 0
-*
-* @c: The character in ASCII code
-*
-* Return: 1 for lowercase. 0 for the rest.
-*/
+ * _islower -  Entry point
+ * @c: An input character
+ * Description: prints alphabet is lowercase 10 times
+ * Return: 1 is lowercase or 0 is uppercase
+ */
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122)
+	char i;
+	int lower = 0;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-	return (1);
+		if (i == c)
+			lower = 1;
 	}
-	else
-	{
-	return (0);
-	}
-	_putchar('\n');
+
+	return (lower);
 }
