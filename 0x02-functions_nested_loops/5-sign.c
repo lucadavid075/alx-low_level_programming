@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign - Entry point
- * @n: An input number
- * Description: Tohis function prints the sign of the number
- * Return: 1 if number is positive, o if number is 0, or
- * -1 if number is negative
+ * print_sign - Check numbers
+ * @n: An inout number
+ * Description: prints the signs of the numbers
+ * Return: 1 number is positive, 0 number is 0 and -1 number is negative
  */
 int print_sign(int n)
 {
