@@ -11,6 +11,11 @@ void print_to_last(int n)
 {
 	while (n < 98)
 	{
+		printf("%i, ", n)
+		n++;
+	}
+	while (n < 98)
+	{
 		printf("%i, ", n);
 		n--;
 	}
