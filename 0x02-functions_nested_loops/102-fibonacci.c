@@ -6,8 +6,9 @@
  * Return: Always 0
  */
 int main(void)
-{ int c;
-	ling int n1, n2, fn;
+{
+	int c;
+	long int n1, n2, fn;
 
 	n1 = 1;
 	n2 = 2;
