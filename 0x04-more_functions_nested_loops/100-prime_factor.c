@@ -17,6 +17,8 @@ int main(void)
 			break;
 		}
 		a--;
+
 	}
 	return (0);
+
 }
