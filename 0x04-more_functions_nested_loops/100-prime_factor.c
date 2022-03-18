@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+
 /**
  * main - prime numbers
  *
@@ -7,20 +7,19 @@
  */
 int main(void)
 {
+	long i, n = 612852475143;
 
-	unsigned int long n = 612852475143, a = (int) sqrt(n);
-
-	while (1)
+	for (i  = 2; i <= number; i++)
 	{
 
-		if (n % a == 0)
+		if (n % i == 0)
 		{
-			printf("%lu \n", n / a);
-			break;
+			number = number / i;
+			i--;
 		}
-		a--;
 
 	}
+	printf("%lu\n", i);
 	return (0);
 
 }
