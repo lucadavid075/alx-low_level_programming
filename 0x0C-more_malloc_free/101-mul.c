@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	if (*num1 == 48 || *num2 == 48)
 		printf("0\n");
 	else
-		_mul(s, f);
+		_mul(num1, num2);
 	return (0);
 }
 
