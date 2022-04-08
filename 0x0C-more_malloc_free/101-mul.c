@@ -64,6 +64,7 @@ void _mul(char *f, char *s)
 	for (i = 0; i < total; i++)
 		printf("%i", ptr[i]);
 	printf("\n");
+	free(ptr);
 }
 /**
  * onlyNumbers - determines if string has only numbers
