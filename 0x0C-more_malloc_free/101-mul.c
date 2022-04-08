@@ -9,13 +9,13 @@
 
 void _puts(char *str)
 {
-int i = 0;
-while (str[i])
-{
-	_putchar(str[i]);
-	i++;
-}
+	int i = 0;
 
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
 }
 
 /**
@@ -31,7 +31,7 @@ int _atoi(const char *s)
 
 	for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)
 	{
-		if (s[firstNum] == '-')
+		if (s[firstNum] == "-")
 		{
 			sign *= -1;
 		}
