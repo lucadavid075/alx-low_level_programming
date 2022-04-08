@@ -11,18 +11,18 @@
  */
 int main(int argc, char *argv[])
 {
-	char *f = argv[1];
-	char *s = argv[2];
+	char *num1 = argv[1];
+	char *num2 = argv[2];
 
 	if (argc != 3 || !onlyNumbers(f) || !onlyNumbers(s))
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	if (*f == 48 || *s == 48)
+	if (*num1 == 48 || *num2 == 48)
 		printf("0\n");
 	else
-		multiply(s, f);
+		mul(s, f);
 	return (0);
 }
 
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
  * @f: first "number"
  * @s: second "number"
  */
-void multiply(char *f, char *s)
+void mul(char *f, char *s)
 {
 	int i, len1, len2, total, fdigit, sdigit, res = 0, tmp;
 	int *ptr;
