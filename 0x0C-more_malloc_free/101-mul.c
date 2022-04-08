@@ -63,6 +63,7 @@ void multiply(char *f, char *s)
 	}
 	for (i = 0; i < total; i++)
 		printf("%i", ptr[i]);
+	free(ptr);
 	printf("\n");
 }
 /**
