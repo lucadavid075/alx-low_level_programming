@@ -3,7 +3,7 @@
 #include <stddef.h>
 
 /**
- * print_list - print_list - prints all elements of a list_t list
+ * print_list - prints all elements of a list_t list
  * @h: pointer to head of singly linked list
  *
  * Return: Number of elements in list
