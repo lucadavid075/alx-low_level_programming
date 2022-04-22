@@ -1,16 +1,14 @@
-#include <stdio.h>
 #include "lists.h"
-#include <stddef.h>
 
 /**
- * print_list - prints all elements of a list_t list
+ * print_list - prints all elemets in a list_t list
  * @h: pointer to head of singly linked list
  *
  * Return: Number of elements in list
  */
 size_t print_list(const list_t *h)
 {
-	unsigned int nelem = 0;
+	unsigned int size = 0;
 
 	while (h != NULL)
 	{
@@ -19,7 +17,7 @@ size_t print_list(const list_t *h)
 		else
 			printf("[0] (nil)\n");
 		h = h->next;
-		nelem++;
+		size++;
 	}
-	return (nelem);
+	return (size);
 }
